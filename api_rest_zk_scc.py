@@ -4,11 +4,11 @@
 
 import json
 import requests
-from zk import ZK, const
-from base import scc
+from zk import ZK
+import scc
 
 #Create API REST - TOMCAT  sistema EGOVF modulo SCC
-api_url = 'url'
+api_url = scc.URL
 headers = {"Content-Type": "application/json"}
 respuesta = 0
 
